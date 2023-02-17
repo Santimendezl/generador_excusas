@@ -10,14 +10,14 @@ window.onload = function() {
 };
 
 function excuseGenerator() {
-  let who = ["the dog", "my granma", "his turtle", "my bird"];
-  let what = ["eat", "pissed", "crushed", "broked"];
+  let who = ["Un fantasma", "Mi abuelita", "Tu gato", "Mi perro"];
+  let what = ["comió", "se meó", "me golpeó", "cayó"];
   let when = [
-    "before the class",
-    "right in time",
-    "when I finished",
-    "during my lunch",
-    "while I was praying"
+    "antes de llegar",
+    "justo a tiempo",
+    "cuando desperté",
+    "mientras comía",
+    "esta mañana"
   ];
   function randomArray(array) {
     let rand = array[Math.floor(Math.random() * array.length)];
