@@ -9,6 +9,10 @@ window.onload = function() {
   document.querySelector("#excuse").innerHTML = excuseGenerator();
 };
 
+document.querySelector("#bt").addEventListener("click", () => {
+  document.querySelector("#excuse").innerHTML = excuseGenerator();
+});
+
 function excuseGenerator() {
   let who = ["Un fantasma", "Mi abuelita", "Tu gato", "Mi perro"];
   let what = ["comió", "se meó", "me golpeó", "cayó"];
@@ -19,6 +23,7 @@ function excuseGenerator() {
     "mientras comía",
     "esta mañana"
   ];
+
   function randomArray(array) {
     let rand = array[Math.floor(Math.random() * array.length)];
     return rand;
